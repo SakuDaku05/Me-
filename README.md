@@ -1,9 +1,8 @@
-# Saket's Portfolio & AI Digital Twin 🚀
+# Saket's Portfolio & AI Digital Twin 
 
-Welcome to the source code for my interactive developer portfolio. This isn't just a static resume—it's a fully dynamic web experience featuring a built-in **AI Digital Twin** that you can chat with!
-
+Welcome to the source code for my interactive developer portfolio.
 ## 🌟 Live Demo
-[View Live Site](https://portfolio-amei8lxpa-seemar978-1034s-projects.vercel.app)
+[View Live Site](https://itsmesaket.vercel.app/)
 
 ## ✨ Features
 - **AI Digital Twin**: A custom-prompted LLM built with Vercel AI SDK and Groq (Llama 3) that acts as my clone, answering questions about my projects, skills, and philosophy.
