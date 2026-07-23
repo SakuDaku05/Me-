@@ -6,4 +6,4 @@ I'm Saket — a developer who believes that the best code is like the best physi
 
 ---
 
-🌐 **[Visit My Portfolio & Chat with my AI Twin](https://portfolio-amei8lxpa-seemar978-1034s-projects.vercel.app)**
+🌐 **[Visit My Portfolio & Chat with my AI Twin](https://itsmesaket.vercel.app/)**
