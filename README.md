@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Saket's Portfolio & AI Digital Twin 🚀
 
-## Getting Started
+Welcome to the source code for my interactive developer portfolio. This isn't just a static resume—it's a fully dynamic web experience featuring a built-in **AI Digital Twin** that you can chat with!
 
-First, run the development server:
+## 🌟 Live Demo
+[View Live Site](https://portfolio-amei8lxpa-seemar978-1034s-projects.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
+- **AI Digital Twin**: A custom-prompted LLM built with Vercel AI SDK and Groq (Llama 3) that acts as my clone, answering questions about my projects, skills, and philosophy.
+- **Neural Net Spiderweb Background**: A stunning, interactive HTML5 Canvas background that responds to your mouse.
+- **Dynamic Animations**: Silky smooth scroll reveals, marquee strips, and interactive UI components powered by Framer Motion.
+- **Fully Responsive**: Beautifully scales from ultra-wide monitors down to mobile devices.
+- **Terminal UI**: A hacker-style terminal chat interface that feels like you're talking directly to my brain.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
+- **Framework**: Next.js (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **AI Integration**: Vercel AI SDK + Groq API
+- **Deployment**: Vercel
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Getting Started Locally
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/SakuDaku05/Me-.git
+   cd Me-
+   ```
 
-## Learn More
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. **Set up Environment Variables**
+   Create a `.env` file in the root directory and add your Groq API key (required for the AI chat to work):
+   ```env
+   GROQ_API_KEY=your_groq_api_key_here
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Run the development server**
+   ```bash
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+5. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-## Deploy on Vercel
+## 📁 Architecture Overview
+- `src/app/page.tsx`: The main landing page.
+- `src/components/ui/ai-core.tsx`: The chat interface and terminal UI for the Digital Twin.
+- `src/app/api/chat/route.ts`: The backend API route that connects to the Groq LLM.
+- `src/components/ui/spiderweb-background.tsx`: The interactive canvas background.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Let's Connect
+Feel free to reach out via [Email](mailto:seemar978@gmail.com), [LinkedIn](https://www.linkedin.com/in/saket-singh-b86109318/), or chat with my Digital Twin directly on the site!
